@@ -1,0 +1,68 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.box{
+/*	border: 2px solid black;*/
+	width: 320px;
+	height: 640px;
+	margin-left: 20px;
+	margin-top: 0px;
+	background-image: url("iphone.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+	border-radius: 50px;
+	
+}
+
+.inputfild{
+	margin-left: 25px;
+	height: 100px;
+	width: 266px;
+	margin-top: 80px;
+	font-size: 50px;
+	border: 2px solid black;
+	background-color: #000;
+}
+.buttons_perent{
+	padding: 10px;
+  
+}
+.buttons_contenor{
+	display: flex;
+	margin-top: 10px;
+
+}
+
+.buttons_contenor .buttons_contenors, button{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 20px;
+	border: 2px solid #000;
+}
+.buttons_contenors .zerobutton{
+	width: 110px;
+	height: 50px;
+	border-radius: 25px;
+	
+	margin-top: 10px;
+	float: left;
+	padding: 10px;
+}
+.zerobutton{
+	float: left;
+}
+.yelow_color{
+	background-color: orange;
+}
+.gry_color{
+	background-color: gray;
+	color: #fff;
+}
+
+
